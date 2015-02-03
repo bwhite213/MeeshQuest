@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Baltimore"/>
+      <x value="76"/>
+      <y value="39"/>
+      <radius value="30"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Chicago"/>
+      <x value="81"/>
+      <y value="47"/>
+      <radius value="35"/>
+      <color value="yellow"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Atlanta"/>
+      <x value="84"/>
+      <y value="33"/>
+      <radius value="40"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Los_Angeles"/>
+      <x value="118"/>
+      <y value="33"/>
+      <radius value="80"/>
+      <color value="blue"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Miami"/>
+      <x value="138"/>
+      <y value="25"/>
+      <radius value="30"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Boston"/>
+      <x value="258"/>
+      <y value="42"/>
+      <radius value="50"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Nevada"/>
+      <x value="255"/>
+      <y value="50"/>
+      <radius value="50"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <error type="cityNotMapped">
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="Nevada"/>
+    </parameters>
+  </error>
+  <error type="nameNotInDictionary">
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="N"/>
+    </parameters>
+  </error>
+  <error type="cityDoesNotExist">
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="N"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Boston"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Baltimore"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Atlanta"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Nevada"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="Atlanta" radius="40" x="84" y="33"/>
+        <city color="red" name="Baltimore" radius="30" x="76" y="39"/>
+        <city color="black" name="Boston" radius="50" x="258" y="42"/>
+        <city color="yellow" name="Chicago" radius="35" x="81" y="47"/>
+        <city color="blue" name="Los_Angeles" radius="80" x="118" y="33"/>
+        <city color="black" name="Miami" radius="30" x="138" y="25"/>
+        <city color="black" name="Nevada" radius="50" x="255" y="50"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="Atlanta"/>
+    </parameters>
+    <output/>
+  </success>
+  <error type="cityNotMapped">
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="Atlanta"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="Atlanta" radius="40" x="84" y="33"/>
+        <city color="red" name="Baltimore" radius="30" x="76" y="39"/>
+        <city color="black" name="Boston" radius="50" x="258" y="42"/>
+        <city color="yellow" name="Chicago" radius="35" x="81" y="47"/>
+        <city color="blue" name="Los_Angeles" radius="80" x="118" y="33"/>
+        <city color="black" name="Miami" radius="30" x="138" y="25"/>
+        <city color="black" name="Nevada" radius="50" x="255" y="50"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Baltimore"/>
+    </parameters>
+    <output>
+      <cityUnmapped color="red" name="Baltimore" radius="30" x="76" y="39"/>
+    </output>
+  </success>
+  <error type="cityDoesNotExist">
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Baltimore"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Atlanta"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="black" name="Boston" radius="50" x="258" y="42"/>
+        <city color="yellow" name="Chicago" radius="35" x="81" y="47"/>
+        <city color="blue" name="Los_Angeles" radius="80" x="118" y="33"/>
+        <city color="black" name="Miami" radius="30" x="138" y="25"/>
+        <city color="black" name="Nevada" radius="50" x="255" y="50"/>
+      </cityList>
+    </output>
+  </success>
+  <error type="nameNotInDictionary">
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="Atlanta"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="black" name="Boston" radius="50" x="258" y="42"/>
+        <city color="yellow" name="Chicago" radius="35" x="81" y="47"/>
+        <city color="blue" name="Los_Angeles" radius="80" x="118" y="33"/>
+        <city color="black" name="Miami" radius="30" x="138" y="25"/>
+        <city color="black" name="Nevada" radius="50" x="255" y="50"/>
+      </cityList>
+    </output>
+  </success>
+  <error type="nameNotInDictionary">
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="Atlanta"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="black" name="Boston" radius="50" x="258" y="42"/>
+        <city color="yellow" name="Chicago" radius="35" x="81" y="47"/>
+        <city color="blue" name="Los_Angeles" radius="80" x="118" y="33"/>
+        <city color="black" name="Miami" radius="30" x="138" y="25"/>
+        <city color="black" name="Nevada" radius="50" x="255" y="50"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="Boston"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="black" name="Boston" radius="50" x="258" y="42"/>
+        <city color="yellow" name="Chicago" radius="35" x="81" y="47"/>
+        <city color="blue" name="Los_Angeles" radius="80" x="118" y="33"/>
+        <city color="black" name="Miami" radius="30" x="138" y="25"/>
+        <city color="black" name="Nevada" radius="50" x="255" y="50"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Boston"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="yellow" name="Chicago" radius="35" x="81" y="47"/>
+        <city color="blue" name="Los_Angeles" radius="80" x="118" y="33"/>
+        <city color="black" name="Miami" radius="30" x="138" y="25"/>
+        <city color="black" name="Nevada" radius="50" x="255" y="50"/>
+      </cityList>
+    </output>
+  </success>
+</results>

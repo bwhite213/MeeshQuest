@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+  <error type="cityDoesNotExist">
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Bojangles"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Shoalin"/>
+      <x value="118"/>
+      <y value="33"/>
+      <radius value="80"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Bonertown"/>
+      <x value="100"/>
+      <y value="300"/>
+      <radius value="80"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Shoalin"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Shoalin"/>
+    </parameters>
+    <output>
+      <cityUnmapped color="black" name="Shoalin" radius="80" x="118" y="33"/>
+    </output>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Bonertown"/>
+    </parameters>
+    <output/>
+  </success>
+</results>

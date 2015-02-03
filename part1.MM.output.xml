@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Edinburgh"/>
+      <x value="256"/>
+      <y value="256"/>
+      <radius value="50"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Lisbon"/>
+      <x value="2"/>
+      <y value="256"/>
+      <radius value="80"/>
+      <color value="orange"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Munich"/>
+      <x value="256"/>
+      <y value="220"/>
+      <radius value="50"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Paris"/>
+      <x value="29"/>
+      <y value="89"/>
+      <radius value="50"/>
+      <color value="red"/>
+    </parameters>
+    <output/>
+  </success>
+  <error type="duplicateCityName">
+    <command name="createCity"/>
+    <parameters>
+      <name value="Paris"/>
+      <x value="0"/>
+      <y value="0"/>
+      <radius value="50"/>
+      <color value="red"/>
+    </parameters>
+  </error>
+  <error type="duplicateCityCoordinates">
+    <command name="createCity"/>
+    <parameters>
+      <name value="Paris2"/>
+      <x value="29"/>
+      <y value="89"/>
+      <radius value="50"/>
+      <color value="red"/>
+    </parameters>
+  </error>
+  <error type="duplicateCityName">
+    <command name="createCity"/>
+    <parameters>
+      <name value="Edinburgh"/>
+      <x value="60"/>
+      <y value="50"/>
+      <radius value="50"/>
+      <color value="red"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Edinburgh"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Munich"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Paris"/>
+    </parameters>
+    <output/>
+  </success>
+  <error type="nameNotInDictionary">
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Paris2"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Lisbon"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printPRQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree>
+        <gray x="256" y="256">
+          <black name="Lisbon" x="2" y="256"/>
+          <black name="Edinburgh" x="256" y="256"/>
+          <black name="Paris" x="29" y="89"/>
+          <black name="Munich" x="256" y="220"/>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+  <success>
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Lisbon"/>
+    </parameters>
+    <output>
+      <cityUnmapped color="orange" name="Lisbon" radius="80" x="2" y="256"/>
+    </output>
+  </success>
+  <error type="cityDoesNotExist">
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Lisbon"/>
+    </parameters>
+  </error>
+  <error type="nameNotInDictionary">
+    <command name="unmapCity"/>
+    <parameters>
+      <name value="Lisbon"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Lisbon"/>
+      <x value="100"/>
+      <y value="100"/>
+      <radius value="80"/>
+      <color value="orange"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="coordinate"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="Paris" radius="50" x="29" y="89"/>
+        <city color="orange" name="Lisbon" radius="80" x="100" y="100"/>
+        <city color="red" name="Munich" radius="50" x="256" y="220"/>
+        <city color="red" name="Edinburgh" radius="50" x="256" y="256"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="listCities"/>
+    <parameters>
+      <sortBy value="name"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="Edinburgh" radius="50" x="256" y="256"/>
+        <city color="orange" name="Lisbon" radius="80" x="100" y="100"/>
+        <city color="red" name="Munich" radius="50" x="256" y="220"/>
+        <city color="red" name="Paris" radius="50" x="29" y="89"/>
+      </cityList>
+    </output>
+  </success>
+  <error type="noCitiesExistInRange">
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="150"/>
+      <y value="150"/>
+      <radius value="120"/>
+      <saveMap value="output"/>
+    </parameters>
+  </error>
+  <success>
+    <command name="rangeCities"/>
+    <parameters>
+      <x value="55"/>
+      <y value="55"/>
+      <radius value="50"/>
+      <saveMap value="output2"/>
+    </parameters>
+    <output>
+      <cityList>
+        <city color="red" name="Paris" radius="50" x="29" y="89"/>
+      </cityList>
+    </output>
+  </success>
+  <success>
+    <command name="saveMap"/>
+    <parameters>
+      <name value="testMap"/>
+    </parameters>
+    <output/>
+  </success>
+</results>

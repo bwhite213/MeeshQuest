@@ -1,0 +1,36 @@
+<commands
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="/Users/duruofei/part1in.xsd"
+spatialWidth="1024"
+spatialHeight="1024">
+<createCity name="Edinburgh" y="500" x="100" radius="50" color="red"/>
+<createCity name="Lisbon" x="100" y="100" radius="80" color="orange"/>
+<createCity name="London" radius="60" x="150" y="250" color="yellow"/>
+<createCity name="Prague" x="150" color="green" y="700" radius="60" />
+<createCity name="Madrid" x="200" y="100" radius="90" color="blue"/>
+<createCity name="Paris" x="250" y="300" radius="40" color="purple"/>
+<createCity name="Copenhagen" x="250" y="500" radius="50" color="black"/>
+<createCity name="Marseilles" x="350" y="100" radius="50" color="red"/>
+<createCity name="Vienna" x="350" y="700" radius="70" color="orange"/>
+<createCity name="Amsterdam" x="400" y="300" radius="70" color="yellow"/>
+<createCity name="Munich" x="400" y="200" radius="30" color="green"/>
+<createCity name="Milan" x="500" y="50" radius="20" color="blue"/>
+<createCity name="Rome" x="500" y="450" radius="80" color="purple"/>
+<createCity name="Naples" x="450" y="650" radius="50" color="black"/>
+<createCity name="Varna" x="100" y="800" radius="90" color="red"/>
+<createCity name="Geneva" x="300" y="200" radius="50" color="orange"/>
+<createCity name="Nowhere" x="330" y="210" radius="1" color="orange"/>
+<deleteCity name="nope"/>
+<listCities sortBy="name"/>
+<mapCity name="Edinburgh"/>
+<deleteCity name="Nowhere"/>
+<deleteCity name="Edinburgh"/>
+<listCities sortBy="name"/>
+<deleteCity name="Edinburgh"/>
+<mapCity name="Geneva"/>
+<listCities sortBy="name"/>
+<mapCity name="Paris"/>
+<listCities sortBy="name"/>
+<deleteCity name="Paris"/>
+<listCities sortBy="name"/>
+</commands>

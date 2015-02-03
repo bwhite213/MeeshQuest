@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : test_deleteCity.xml
+    Created on : March 27, 2007, 11:04 PM
+    Author     : Colin P
+    Description:
+        Purpose of the document follows.
+-->
+
+<commands xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='part1in.xsd'
+    spatialHeight="1024" spatialWidth="1024">
+    <!-- cityDoesNotExist -->
+    <deleteCity name="Bojangles"/>
+</commands>

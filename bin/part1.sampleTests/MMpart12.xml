@@ -1,0 +1,15 @@
+<commands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="part1in.xsd" spatialWidth="512" spatialHeight="512">
+<createCity name="Edinburgh" y="256" x="256" radius="50" color="red"/>
+<createCity name="Lisbon" x="2" y="256" radius="80" color="orange"/>
+<createCity name="Munich" y="220" x="256" radius="50" color="red"/>
+<createCity name="Paris" y="89" x="29" radius="50" color="red"/>
+<createCity name="Paris" y="0" x="0" radius="50" color="red"/>
+<createCity name="Paris2" y="89" x="29" radius="50" color="red"/>
+<createCity name="Edinburgh" y="50" x="60" radius="50" color="red"/>
+<nearestCity x="150" y="150"/> 
+<mapCity name="Lisbon"/>
+<mapCity name="Paris"/>
+<mapCity name="Munich"/>
+<mapCity name="Edinburgh"/>
+<nearestCity x="150" y="150"/>
+</commands>

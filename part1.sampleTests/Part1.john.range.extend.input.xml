@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : test_rangeCities2.xml
+    Created on : March 29, 2007, 11:40 PM
+    Author     : Colin P
+    Description:
+        Purpose of the document follows.
+-->
+
+<commands xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='part1in.xsd'
+    spatialHeight="32" spatialWidth="32">
+
+    <!-- Create the cities first -->
+    <createCity name="Baltimore" x="16" y="16" radius="30" color="black"/>
+    <createCity name="Chicago" x="24" y="16" radius="35" color="black"/>
+    <createCity name="Atlanta" x="28" y="20" radius="40" color="black"/>
+    <createCity name="Boston" x="8" y="24" radius="40" color="black"/>
+    <createCity name="Princeton" x="9" y="23" radius="40" color="black"/>
+    
+    <mapCity name="Baltimore"/>
+    <mapCity name="Chicago"/>
+    <mapCity name="Atlanta"/>
+    <mapCity name="Boston"/>
+    <mapCity name="Princeton"/>
+    <rangeCities x="16" y="16" radius="8"/>
+</commands>

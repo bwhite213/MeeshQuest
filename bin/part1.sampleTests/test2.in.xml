@@ -1,0 +1,52 @@
+<commands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="part1in.xsd" spatialWidth="8192" spatialHeight="8192">
+<createCity name="fahdeb" x="2331" y="5318" radius="46" color="red"/>
+<mapCity name="fahdeb"/>
+<createCity name="hceadg" x="7482" y="3235" radius="31" color="purple"/>
+<mapCity name="hceadg"/>
+<unmapCity name="hceadg"/>
+<deleteCity name="hceadg"/>
+<createCity name="ghadbe" x="3336" y="1913" radius="49" color="yellow"/>
+<mapCity name="ghadbe"/>
+<createCity name="ehdfac" x="7137" y="6759" radius="25" color="orange"/>
+<mapCity name="ehdfac"/>
+<createCity name="bdfeca" x="469" y="7906" radius="2" color="black"/>
+<mapCity name="bdfeca"/>
+<unmapCity name="bdfeca"/>
+<deleteCity name="bdfeca"/>
+<createCity name="dcbhag" x="3842" y="7189" radius="62" color="orange"/>
+<mapCity name="dcbhag"/>
+<createCity name="efcagd" x="303" y="4002" radius="47" color="black"/>
+<mapCity name="efcagd"/>
+<createCity name="adbecg" x="5944" y="498" radius="90" color="green"/>
+<mapCity name="adbecg"/>
+<createCity name="abhedg" x="6566" y="1685" radius="0" color="purple"/>
+<mapCity name="abhedg"/>
+<createCity name="beghfa" x="5596" y="2849" radius="0" color="yellow"/>
+<mapCity name="beghfa"/>
+<listCities sortBy="name"/>
+<listCities sortBy="coordinate"/>
+<printPRQuadtree />
+<rangeCities x="7854" y="612" radius="7709"/>
+<nearestCity x="6107" y="2422"/>
+<rangeCities x="1127" y="5519" radius="3715"/>
+<nearestCity x="6693" y="32"/>
+<rangeCities x="817" y="6176" radius="6871"/>
+<nearestCity x="4970" y="5028"/>
+<rangeCities x="2261" y="6160" radius="3742"/>
+<nearestCity x="5483" y="3163"/>
+<rangeCities x="5289" y="6942" radius="312"/>
+<nearestCity x="2938" y="6308"/>
+<rangeCities x="7150" y="6247" radius="1437"/>
+<nearestCity x="7919" y="5091"/>
+<rangeCities x="4785" y="5918" radius="406"/>
+<nearestCity x="7041" y="4398"/>
+<rangeCities x="6521" y="5503" radius="949"/>
+<nearestCity x="2165" y="2649"/>
+<rangeCities x="2198" y="1063" radius="3490"/>
+<nearestCity x="5312" y="2019"/>
+<rangeCities x="5999" y="3132" radius="3233"/>
+<nearestCity x="2609" y="2767"/>
+<clearAll />
+<printPRQuadtree />
+<mapCity name="beghfa" />
+</commands>

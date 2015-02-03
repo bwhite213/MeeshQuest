@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+  <error type="cityDoesNotExist">
+    <command name="deleteCity"/>
+    <parameters>
+      <name value="Bojangles"/>
+    </parameters>
+  </error>
+</results>

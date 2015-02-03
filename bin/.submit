@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC420
+#  Project 1: part1
+
+courseName=CMSC420
+semester=201405
+projectNumber=1
+courseKey=71f7af643407ab89
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/summer2014
+submitURL=https://submit.cs.umd.edu:443/summer2014/eclipse/SubmitProjectViaEclipse

@@ -1,0 +1,28 @@
+<commands
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="part1in.xsd"
+spatialWidth="512"
+spatialHeight="512">
+<createCity name="Edinburgh" y="256" x="256" radius="50" color="red"/>
+<createCity name="Lisbon" x="2" y="256" radius="80" color="orange"/>
+<createCity name="Munich" y="220" x="256" radius="50" color="red"/>
+<createCity name="Paris" y="89" x="29" radius="50" color="red"/>
+<createCity name="Paris" y="0" x="0" radius="50" color="red"/>
+<createCity name="Paris2" y="89" x="29" radius="50" color="red"/>
+<createCity name="Edinburgh" y="50" x="60" radius="50" color="red"/>
+<mapCity name="Edinburgh"/>
+<mapCity name="Munich"/>
+<mapCity name="Paris"/>
+<mapCity name="Paris2"/>
+<mapCity name="Lisbon"/>
+<printPRQuadtree/>
+<deleteCity name="Lisbon"/>
+<deleteCity name="Lisbon"/>
+<unmapCity name="Lisbon"/>
+<createCity name="Lisbon" x="100" y="100" radius="80" color="orange"/>
+<listCities sortBy="coordinate"/>
+<listCities sortBy="name"/>
+<rangeCities x="150" y="150" radius="120" saveMap="output"/>
+<rangeCities x="55" y="55" radius="50" saveMap="output2"/>
+<saveMap name="testMap"/>
+</commands>

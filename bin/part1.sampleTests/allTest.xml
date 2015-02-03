@@ -1,0 +1,100 @@
+<commands
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="part1in.xsd"
+spatialWidth="1024"
+spatialHeight="1024">
+<listCities sortBy="name" />
+<createCity name="Edinburgh" y="500" x="100" radius="50" color="red"/>
+<listCities sortBy="name" />
+<createCity name="Lisbon" x="100" y="100" radius="80" color="orange"/>
+<createCity name="London" radius="60" x="150" y="250" color="yellow"/>
+<createCity name="Prague" x="150" color="green" y="700" radius="60" />
+<createCity name="Madrid" x="200" y="100" radius="90" color="blue"/>
+<createCity name="Paris" x="250" y="300" radius="40" color="purple"/>
+<createCity name="Copenhagen" x="250" y="500" radius="50" color="black"/>
+<createCity name="Marseilles" x="350" y="100" radius="50" color="red"/>
+<deleteCity name="Madrid" />
+<createCity name="Vienna" x="350" y="700" radius="70" color="orange"/>
+<createCity name="Amsterdam" x="400" y="300" radius="70" color="yellow"/>
+<createCity name="Munich" x="400" y="200" radius="30" color="green"/>
+<createCity name="Milan" x="500" y="50" radius="20" color="blue"/>
+<createCity name="Rome" x="500" y="450" radius="80" color="purple"/>
+<createCity name="Naples" x="450" y="650" radius="50" color="black"/>
+<createCity name="Varna" x="100" y="800" radius="90" color="red"/>
+<createCity name="Geneva" x="300" y="200" radius="50" color="orange"/>
+<createCity name="Nowhere" x="330" y="210" radius="1" color="orange"/>
+<printPRQuadtree/>
+<nearestCity x="200" y="300" />
+<mapCity name="Edinburgh"/>
+<printPRQuadtree/>
+<mapCity name="Lisbon"/>
+<printPRQuadtree/>
+<mapCity name="London"/>
+<printPRQuadtree/>
+<mapCity name="Prague"/>
+<printPRQuadtree/>
+<mapCity name="Madrid"/>
+<listCities sortBy="name" />
+<printPRQuadtree/>
+<mapCity name="Paris"/>
+<printPRQuadtree/>
+<mapCity name="Copenhagen"/>
+<printPRQuadtree/>
+<saveMap name="test1.out.xml" />
+<mapCity name="Marseilles"/>
+<printPRQuadtree/>
+<mapCity name="Vienna"/>
+<printPRQuadtree/>
+<mapCity name="Amsterdam"/>
+<printPRQuadtree/>
+<clearAll />
+<mapCity name="Munich"/>
+<printPRQuadtree/>
+<mapCity name="Milan"/>
+<printPRQuadtree/>
+<mapCity name="Rome"/>
+<printPRQuadtree/>
+<mapCity name="Naples"/>
+<printPRQuadtree/>
+<nearestCity x="200" y="300" />
+<mapCity name="Varna"/>
+<printPRQuadtree/>
+<mapCity name="Geneva"/>
+<printPRQuadtree/>
+<unmapCity name="Milan"/>
+<printPRQuadtree/>
+<unmapCity name="Nowhere"/>
+<unmapCity name="Rome"/>
+<printPRQuadtree/>
+<saveMap name="test2.out.xml" />
+<unmapCity name="Marseilles"/>
+<printPRQuadtree/>
+<unmapCity name="Lisbon"/>
+<printPRQuadtree/>
+<rangeCities x="200" y="400" radius="200" />
+<unmapCity name="London"/>
+<printPRQuadtree/>
+<unmapCity name="Amsterdam"/>
+<printPRQuadtree/>
+<unmapCity name="Paris"/>
+<printPRQuadtree/>
+<nearestCity x="0" y="0" />
+<unmapCity name="Copenhagen"/>
+<printPRQuadtree/>
+<unmapCity name="Munich"/>
+<printPRQuadtree/>
+<unmapCity name="Prague"/>
+<printPRQuadtree/>
+<unmapCity name="Naples"/>
+<printPRQuadtree/>
+<unmapCity name="Madrid"/>
+<printPRQuadtree/>
+<unmapCity name="Vienna"/>
+<printPRQuadtree/>
+<unmapCity name="Edinburgh"/>
+<printPRQuadtree/>
+<deleteCity name="Varna"/>
+<unmapCity name="Varna"/>
+<listCities sortBy="name" />
+<printPRQuadtree/>
+</commands>

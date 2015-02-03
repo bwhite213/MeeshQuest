@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : test_deleteCity.xml
+    Created on : March 27, 2007, 11:04 PM
+    Author     : Colin P, Andrew N
+    Description:
+        adding a little more to Colin's test. 
+        Checks cityNotExist Error
+        tests a successful delete and unmapping
+        tests a successful delete with no unmapping
+-->
+
+<commands xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='part1in.xsd'
+    spatialHeight="1024" spatialWidth="1024">
+    <!-- cityDoesNotExist -->
+    <deleteCity name="Bojangles"/>
+    <!-- adding elements, mapping, and then deleting -->
+    <createCity name="Shoalin" x="118" y="33" radius="80" color="black"/>
+    <createCity name="Bonertown" x="100" y="300" radius="80" color="black"/>
+    <mapCity name="Shoalin"/>
+    <deleteCity name="Shoalin"/>
+    <deleteCity name="Bonertown"/>
+</commands>

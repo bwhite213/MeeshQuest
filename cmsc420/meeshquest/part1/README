@@ -1,0 +1,13 @@
+Brandon Whitehead
+bwhitehe
+
+Resources:
+I have used ideas from the following sources to implement my PRQuadtree
+- Online resource slides of PRQuadtree Implementation provided on the Wiki.
+https://www.cs.umd.edu/users/meesh/cmsc420/Notes/neighbornotes/incnear.pdf
+- My initial implementation used some of the ideas for implementing inserts on the PRQuadtree after stumbling on this github code,
+but my current implementation has been reworked to be more efficient with what i already had in place, buy i still figured i should mention 
+it in here to be safe. https://github.com/jahamed/Class-Projects/blob/master/CMSC420%20-%20Data%20Structures/PR%20Quadtree/bin/cmsc420/meeshquest/
+
+I also received some helpful ideas on implementing my nearest cities command with the linked PDF files on the specification and the 
+meeshquest wiki for the nearest city command.
